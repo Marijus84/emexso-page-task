@@ -7,8 +7,14 @@ body {
 }
 
 .limited {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 1rem auto;
+}
+
+h4,
+h1,
+.contacts {
+  color: #0c2660;
 }
 
 .contacts {
@@ -19,9 +25,18 @@ body {
   padding-bottom: 0.5rem;
 }
 
+h3,
 i {
   color: #ef5f46;
+}
+
+i {
   margin: 0.2rem;
+  padding-right: 0.5rem;
+}
+
+.fa-envelope {
+  padding-left: 2rem;
 }
 
 .square-border {
@@ -73,7 +88,7 @@ button {
   display: flex;
   align-items: center;
   background-color: #fbd6b5;
-  height: 50vh;
+  padding: 7% 2rem;
 }
 
 section .limited {
@@ -91,6 +106,7 @@ section .limited {
 
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 .shop-now-arrow::after {
@@ -105,11 +121,9 @@ img {
 
 h3 {
   text-transform: uppercase;
-  color: #ef5f46;
 }
 
 h1 {
-  color: #0c2660;
   text-transform: capitalize;
   font-size: 3rem;
 }
@@ -117,8 +131,4 @@ h1 {
 .smaller {
   font-size: 0.9rem;
   color: #999e93;
-}
-
-h4 {
-  color: #0c2660;
 }
